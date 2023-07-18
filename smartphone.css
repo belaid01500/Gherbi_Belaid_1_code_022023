@@ -1,0 +1,206 @@
+@media screen and (max-width: 480px) {
+  body {
+    flex-direction: column;
+    margin: auto 0px;
+    overflow-x: hidden;
+  }
+  header {
+    flex-direction: column;
+    justify-content: center;
+    gap: 65px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  a:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+  }
+  .info-group {
+    padding: 0px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    align-self: stretch;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .filter_main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+  }
+  .filter_2 {
+    height: 35px;
+    width: 100%;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+  }
+  .filter_1 {
+    height: 35px;
+    width: 100%;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+  }
+  .filter_3 {
+    height: 35px;
+    width: 100%;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+  }
+  .filter_4 {
+    height: 35px;
+    width: 100%;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+  }
+  .row-column1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+  }
+  .row-column2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+  }
+  .search_bar {
+    height: 49px;
+    width: 100%;
+    align-self: stretch;
+    border-radius: 15px;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+  }
+  .fa-location-dot {
+    width: 50px;
+    height: 49px;
+    flex-shrink: 0;
+  }
+  .fa-magnifying-glass {
+    display: flex;
+    height: auto 49px;
+    width: fixed 49px;
+    padding: 15px;
+    color: white;
+    margin: 55px;
+    border: 1px solid #0065fc;
+    border-radius: 15px;
+    background: #0065fc;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .btn_search {
+    display: none;
+  }
+  .section_hebergement {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+    width: 620px;
+  }
+  .card {
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    width: 345px;
+    height: auto 207.25px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  }
+  .card img {
+    height: 114px;
+    align-self: stretch;
+  }
+
+  .popular {
+    padding: 30px 20px;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-self: stretch;
+    width: 95%;
+    background: #f2f2f2;
+  }
+  .popular_card {
+    height: 146px;
+    width: 335px;
+    padding-right: 0px;
+    align-self: stretch;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  }
+  .popular_card img {
+    width: 111.666px;
+    height: fixed 146px;
+  }
+  .activity_main {
+    flex-direction: column;
+  }
+  .activity_card {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+    height: auto 200px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgb(0, 0, 0, 0.1);
+  }
+  .activity_card img {
+    height: 141px;
+    align-self: stretch;
+  }
+  .footer_main {
+    flex-direction: column;
+  }
+  .card_main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+  }
+  .column_2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+  }
+  .hebergement_card {
+    background: none;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+  }
+}
