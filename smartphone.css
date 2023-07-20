@@ -1,8 +1,11 @@
 @media screen and (max-width: 480px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   body {
     flex-direction: column;
     margin: auto 0px;
-    overflow-x: hidden;
   }
   header {
     flex-direction: column;
@@ -108,7 +111,7 @@
     width: fixed 49px;
     padding: 15px;
     color: white;
-    margin: 55px;
+    margin: 60px;
     border: 1px solid #0065fc;
     border-radius: 15px;
     background: #0065fc;
@@ -123,6 +126,7 @@
     align-items: flex-start;
     gap: 15px;
     align-self: stretch;
+    overflow-x: hidden;
     width: 620px;
   }
   .card {
