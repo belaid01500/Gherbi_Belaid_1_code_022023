@@ -377,3 +377,8 @@ input {
 .assistance a {
   border-top: none;
 }
+@media screen and (max-width: 968px) {
+  .section_hebergement {
+    flex-direction: column;
+  }
+}
