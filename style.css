@@ -378,10 +378,6 @@ input {
   border-top: none;
 }
 @media screen and (max-width: 1200px) {
-  body,
-  html {
-    overflow-x: hidden;
-  }
   .section_hebergement {
     flex-direction: column;
     width: 70%;
