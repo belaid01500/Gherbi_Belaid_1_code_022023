@@ -153,6 +153,7 @@
     align-self: stretch;
     width: 95%;
     background: #f2f2f2;
+    border-radius: 0px;
   }
   .popular_card {
     height: 146px;
