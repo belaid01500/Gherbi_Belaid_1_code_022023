@@ -78,19 +78,9 @@
     border-radius: 25px;
     border: 2px solid #d9d9d9;
   }
-  .row-column1 {
+  .filter_row {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-    align-self: stretch;
-  }
-  .row-column2 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-    align-self: stretch;
+    flex-direction: column;
   }
   .search_bar {
     height: 49px;
