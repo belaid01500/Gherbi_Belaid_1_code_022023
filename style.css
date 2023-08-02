@@ -395,9 +395,23 @@ input {
 }
 @media screen and (max-width: 600px) {
   .section_hebergement {
+    width: 90%;
+  }
+  .activity {
     width: 100%;
   }
+  .activity_card {
+    width: 100%;
+  }
+  .activity_card img {
+    width: 200px;
+    object-fit: cover;
+  }
+  .footer_main {
+    width: 650px;
+  }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     flex-direction: column;
