@@ -3,6 +3,7 @@ body {
   font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
+  height: 1719px;
   gap: 35px;
   overflow-x: hidden;
 }
@@ -353,14 +354,16 @@ input {
 .footer_main {
   display: flex;
   align-items: flex-start;
+  align-self: stretch;
   background: #f2f2f2;
 }
+h4 {
+  margin: 30px;
+  align-items: center;
+}
 .a-propos {
-  display: flex;
   padding: 20px;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
   align-items: flex-start;
   flex: 1 0 0;
   align-self: stretch;
