@@ -538,7 +538,7 @@ h4 {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   html,
   body {
     overflow-x: hidden;
@@ -557,8 +557,7 @@ h4 {
     justify-content: center;
     margin-top: 90px;
   }
-  a {
-  }
+
   a:hover {
     border-top: none;
     border-bottom: 2px solid #0065fc;
@@ -623,6 +622,7 @@ h4 {
   .filter_row {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .filter_2 {
@@ -652,7 +652,7 @@ h4 {
     width: 49px;
     padding: 15px;
     color: white;
-    margin: 60px;
+    margin: 80px;
     border: 1px solid #0065fc;
     border-radius: 15px;
     background: #0065fc;
@@ -693,7 +693,7 @@ h4 {
     gap: 15px;
     justify-content: center;
     align-self: stretch;
-    width: 95%;
+    width: 100%;
     background: #f2f2f2;
     border-radius: 0px;
   }
@@ -743,10 +743,38 @@ h4 {
   }
   .hebergement_card {
     background: none;
-    padding: 20px;
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
     align-self: stretch;
+  }
+  .a-propos a:hover {
+    border-bottom: none;
+  }
+  .nos-hebergements a:hover {
+    border-bottom: none;
+  }
+  .assistance a:hover {
+    border-bottom: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  .popular {
+    width: 95%;
+  }
+  .fa-magnifying-glass {
+    margin: 60px;
+  }
+  .hebergement_card {
+    padding: 20px;
+  }
+  .a-propos a:hover {
+    border-bottom: none;
+  }
+  .nos-hebergements a:hover {
+    border-bottom: none;
+  }
+  .assistance a:hover {
+    border-bottom: none;
   }
 }
