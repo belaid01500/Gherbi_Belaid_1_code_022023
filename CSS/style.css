@@ -7,32 +7,39 @@ body {
   gap: 35px;
   overflow-x: hidden;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: -50px;
 }
+
 .logo {
   display: flex;
 }
+
 .logo img {
   width: 35%;
 }
+
 .menu {
   display: flex;
   gap: 38px;
 }
+
 a {
   text-decoration: none;
   color: black;
   border-top: 2px solid white;
   padding: 30px;
 }
+
 a:hover {
   color: #0065fc;
   border-color: #0065fc;
 }
+
 /***************** titre/recherche/filtre **********************/
 .search_bar {
   display: flex;
@@ -44,6 +51,7 @@ a:hover {
   border: 1px solid #f2f2f2;
   background: #ffffff;
 }
+
 .fa-location-dot {
   width: 50px;
   height: 49px;
@@ -56,12 +64,14 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .fa-magnifying-glass {
   display: none;
   width: 17px;
   height: 17px;
   background: #ffffff;
 }
+
 .btn_search {
   display: flex;
   flex-direction: row;
@@ -77,13 +87,16 @@ a:hover {
   justify-content: center;
   cursor: pointer;
 }
+
 input {
   border: none;
 }
+
 ::placeholder {
   color: black;
   font-size: 18px;
 }
+
 .filter_main {
   display: flex;
   align-items: center;
@@ -91,18 +104,22 @@ input {
   flex-wrap: wrap;
   gap: 15px;
 }
+
 .filter_row {
   display: flex;
   gap: 15px;
 }
+
 .row-column1 {
   display: flex;
   gap: 15px;
 }
+
 .row-column2 {
   display: flex;
   gap: 15px;
 }
+
 .filter {
   display: flex;
   height: 35px;
@@ -112,33 +129,40 @@ input {
   border-radius: 25px;
   border: 2px solid #d9d9d9;
 }
+
 .filter:hover {
   background: #deebff;
 }
+
 .color {
   color: #0065fc;
 }
+
 .info-group {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 35px;
 }
+
 .headline {
   display: flex;
   flex-direction: column;
   align-self: stretch;
   font-size: 12px;
 }
+
 .headline p {
   font-size: 15px;
 }
+
 .info-bar {
   display: flex;
   align-items: center;
   gap: 10px;
   height: 24px;
 }
+
 .fa-info {
   border: 1px solid #d9d9d9;
   border-radius: 50%;
@@ -150,6 +174,7 @@ input {
   box-sizing: border-box;
   color: #0065fc;
 }
+
 /************** Hébergement et Populaire ******************/
 .card_main {
   display: flex;
@@ -157,6 +182,7 @@ input {
   gap: 30px;
   align-self: stretch;
 }
+
 .card {
   display: flex;
   padding-bottom: 0px;
@@ -170,12 +196,15 @@ input {
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
 .fa-star {
   color: #0065fc;
 }
+
 .grey {
   color: #f2f2f2;
 }
+
 .card img {
   height: 124px;
   align-self: stretch;
@@ -183,12 +212,14 @@ input {
   border: 5px solid #fff;
   object-fit: cover;
 }
+
 .column_2 {
   display: flex;
   align-items: flex-start;
   gap: 30px;
   align-self: stretch;
 }
+
 .hebergement_card {
   border-radius: 15px;
   background: #f2f2f2;
@@ -199,20 +230,25 @@ input {
   align-items: flex-start;
   gap: 30px;
 }
+
 .container {
   margin: 10px;
 }
+
 .container h3 {
   font-size: 16px;
 }
+
 .container p {
   font-size: 14px;
 }
+
 .section_hebergement {
   display: flex;
   gap: 40px;
   align-self: stretch;
 }
+
 /**************** Les plus populaires *********************/
 .popular {
   display: flex;
@@ -224,14 +260,17 @@ input {
   border-radius: 15px;
   background: #f2f2f2;
 }
+
 .icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .icon {
   color: #0065fc;
 }
+
 .popular_main {
   display: flex;
   flex-direction: column;
@@ -239,6 +278,7 @@ input {
   align-items: flex-start;
   align-self: stretch;
 }
+
 .popular_card {
   display: flex;
   height: 144px;
@@ -249,12 +289,14 @@ input {
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
 .containers {
   display: flex;
   margin-left: 10px;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .title {
   flex-direction: column;
   align-items: flex-start;
@@ -262,15 +304,19 @@ input {
   flex: 1 0 0;
   align-self: stretch;
 }
+
 .star {
   padding: 5px;
 }
+
 .title h3 {
   font-size: 16px;
 }
+
 .title p {
   font-size: 14px;
 }
+
 .popular_card img {
   width: 30%;
   height: 134px;
@@ -280,12 +326,14 @@ input {
   border-left: 5px solid #fff;
   object-fit: cover;
 }
+
 /************************************* Activités *********************************/
 .activity_main {
   display: flex;
   align-items: flex-start;
   gap: 30px;
 }
+
 .activity {
   display: flex;
   padding: 30px;
@@ -293,6 +341,7 @@ input {
   gap: 30px;
   align-self: stretch;
 }
+
 .activity_card {
   display: flex;
   flex-direction: column;
@@ -303,6 +352,7 @@ input {
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
 .activity_card img {
   height: 380px;
   flex-shrink: 0;
@@ -311,13 +361,16 @@ input {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
+
 .container_activity {
   align-self: stretch;
   margin-left: 19px;
 }
+
 .container_activity h3 {
   font-size: 16px;
 }
+
 /******************************** footer ***************************/
 .footer_main {
   display: flex;
@@ -325,10 +378,12 @@ input {
   align-self: stretch;
   background: #f2f2f2;
 }
+
 h4 {
   margin: 30px;
   align-items: center;
 }
+
 .a-propos {
   padding: 20px;
   flex-direction: column;
@@ -336,6 +391,7 @@ h4 {
   flex: 1 0 0;
   align-self: stretch;
 }
+
 .nos-hebergements {
   padding: 20px;
   flex-direction: column;
@@ -343,6 +399,7 @@ h4 {
   flex: 1 0 0;
   align-self: stretch;
 }
+
 .assistance {
   padding: 20px;
   flex-direction: column;
@@ -350,20 +407,25 @@ h4 {
   flex: 1 0 0;
   align-self: stretch;
 }
+
 .a-propos a {
   border-top: none;
 }
+
 .nos-hebergements a {
   border-top: none;
 }
+
 .assistance a {
   border-top: none;
 }
+
 @media screen and (max-width: 1200px) {
   .section_hebergement {
     flex-direction: column;
     width: 100%;
   }
+
   .popular {
     width: 60%;
   }
@@ -373,6 +435,7 @@ h4 {
   body {
     flex-direction: column;
   }
+
   .headline h1 {
     display: flex;
     font-size: 22px;
@@ -381,12 +444,14 @@ h4 {
     gap: 8px;
     align-self: stretch;
   }
+
   .info-group {
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
     align-self: stretch;
   }
+
   .filter_main {
     flex-direction: column;
     justify-content: center;
@@ -394,9 +459,11 @@ h4 {
     gap: 20px;
     width: 668px;
   }
+
   .hebergement_card {
     width: 175%;
   }
+
   .section_hebergement {
     width: 53%;
     flex-direction: column;
@@ -405,12 +472,15 @@ h4 {
     gap: 50px;
     align-self: stretch;
   }
+
   .stars {
     font-size: 15px;
   }
+
   .popular {
     width: 175%;
   }
+
   .popular_card {
     display: flex;
     width: 50%;
@@ -420,6 +490,7 @@ h4 {
     background: #fff;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   }
+
   .popular_main {
     display: flex;
     flex-direction: row;
@@ -427,6 +498,7 @@ h4 {
     gap: 20px;
     align-self: stretch;
   }
+
   .activity {
     display: flex;
     padding: 30px;
@@ -435,12 +507,14 @@ h4 {
     gap: 30px;
     align-self: stretch;
   }
+
   .activity_main {
     display: flex;
     align-items: flex-start;
     gap: 30px;
     align-self: stretch;
   }
+
   .activity_card {
     display: flex;
     flex-direction: column;
@@ -450,11 +524,13 @@ h4 {
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   }
+
   .activity_card img {
     height: 200px;
     align-self: stretch;
     border-radius: 20px 20px 0px 0px;
   }
+
   .container_activity {
     display: flex;
     height: 70px;
@@ -466,6 +542,7 @@ h4 {
     border-radius: 0px 0px 20px 20px;
     background: #fff;
   }
+
   .card {
     display: flex;
     padding-bottom: 0px;
@@ -476,46 +553,56 @@ h4 {
     background: #fff;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   }
+
   .card img {
     height: 124px;
     align-self: stretch;
     border-radius: 20px 20px 0px 0px;
     border: 5px solid #fff;
   }
+
   .container {
     padding: 0px 15px;
     margin-left: 50px;
     width: 100%;
     height: 95px;
   }
+
   .container h3 {
     width: 100%;
     height: 19px;
   }
+
   .a-propos p {
     font-size: 12px;
   }
+
   .nos-hebergements p {
     font-size: 12px;
   }
+
   .assistance p {
     font-size: 12px;
   }
 }
+
 @media screen and (max-width: 768px) {
   html,
   body {
     overflow-x: hidden;
   }
+
   body {
     flex-direction: column;
     margin: auto 0px;
   }
+
   header {
     flex-direction: column;
     justify-content: center;
     gap: 65px;
   }
+
   .logo {
     display: flex;
     justify-content: center;
@@ -526,6 +613,7 @@ h4 {
     border-top: none;
     border-bottom: 2px solid #0065fc;
   }
+
   .info-group {
     padding: 0px 20px;
     flex-direction: column;
@@ -533,9 +621,11 @@ h4 {
     gap: 35px;
     align-self: stretch;
   }
+
   h1 {
     font-size: 26px;
   }
+
   .filter_main {
     flex-direction: column;
     justify-content: center;
@@ -543,6 +633,7 @@ h4 {
     gap: 20px;
     align-self: stretch;
   }
+
   .filter_2 {
     height: 35px;
     width: 100%;
@@ -553,6 +644,7 @@ h4 {
     border-radius: 25px;
     border: 2px solid #d9d9d9;
   }
+
   .filter_1 {
     height: 35px;
     width: 100%;
@@ -563,6 +655,7 @@ h4 {
     border-radius: 25px;
     border: 2px solid #d9d9d9;
   }
+
   .filter_3 {
     height: 35px;
     width: 100%;
@@ -573,6 +666,7 @@ h4 {
     border-radius: 25px;
     border: 2px solid #d9d9d9;
   }
+
   .filter_4 {
     height: 35px;
     width: 100%;
@@ -583,6 +677,7 @@ h4 {
     border-radius: 25px;
     border: 2px solid #d9d9d9;
   }
+
   .filter_row {
     display: flex;
     flex-direction: column;
@@ -597,6 +692,7 @@ h4 {
     gap: 10px;
     flex: 1 0 0;
   }
+
   .search_bar {
     height: 49px;
     width: 100%;
@@ -605,11 +701,13 @@ h4 {
     border: 1px solid #f2f2f2;
     background: #fff;
   }
+
   .fa-location-dot {
     width: 50px;
     height: 49px;
     flex-shrink: 0;
   }
+
   .fa-magnifying-glass {
     display: flex;
     height: 19px;
@@ -622,9 +720,11 @@ h4 {
     background: #0065fc;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .btn_search {
     display: none;
   }
+
   .section_hebergement {
     flex-direction: column-reverse;
     justify-content: center;
@@ -634,6 +734,7 @@ h4 {
     overflow-x: hidden;
     width: 620px;
   }
+
   .card {
     padding-bottom: 0px;
     flex-direction: column;
@@ -646,6 +747,7 @@ h4 {
     background: #fff;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   }
+
   .card img {
     height: 114px;
     align-self: stretch;
@@ -661,6 +763,7 @@ h4 {
     background: #f2f2f2;
     border-radius: 0px;
   }
+
   .popular_card {
     height: 146px;
     width: 335px;
@@ -669,13 +772,16 @@ h4 {
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   }
+
   .popular_card img {
     width: 111.666px;
     height: 136px;
   }
+
   .activity_main {
     flex-direction: column;
   }
+
   .activity_card {
     flex-direction: column;
     justify-content: flex-end;
@@ -686,25 +792,30 @@ h4 {
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgb(0, 0, 0, 0.1);
   }
+
   .activity_card img {
     height: 141px;
     align-self: stretch;
   }
+
   .footer_main {
     flex-direction: column;
   }
+
   .card_main {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
     align-self: stretch;
   }
+
   .column_2 {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
     align-self: stretch;
   }
+
   .hebergement_card {
     background: none;
     flex-direction: column;
@@ -712,32 +823,41 @@ h4 {
     gap: 15px;
     align-self: stretch;
   }
+
   .a-propos a:hover {
     border-bottom: none;
   }
+
   .nos-hebergements a:hover {
     border-bottom: none;
   }
+
   .assistance a:hover {
     border-bottom: none;
   }
 }
+
 @media screen and (max-width: 390px) {
   .popular {
     width: 95%;
   }
+
   .fa-magnifying-glass {
     margin: 60px;
   }
+
   .hebergement_card {
     padding: 20px;
   }
+
   .a-propos a:hover {
     border-bottom: none;
   }
+
   .nos-hebergements a:hover {
     border-bottom: none;
   }
+
   .assistance a:hover {
     border-bottom: none;
   }
