@@ -103,7 +103,7 @@ input {
   display: flex;
   gap: 15px;
 }
-.filter_1 {
+.filter {
   display: flex;
   height: 35px;
   padding: 4px 19px;
@@ -112,43 +112,7 @@ input {
   border-radius: 25px;
   border: 2px solid #d9d9d9;
 }
-.filter_2 {
-  display: flex;
-  height: 35px;
-  padding: 4px 19px;
-  align-items: center;
-  gap: 10px;
-  border-radius: 25px;
-  border: 2px solid #d9d9d9;
-}
-.filter_3 {
-  display: flex;
-  height: 35px;
-  padding: 4px 19px;
-  align-items: center;
-  gap: 10px;
-  border-radius: 25px;
-  border: 2px solid #d9d9d9;
-}
-.filter_4 {
-  display: flex;
-  height: 35px;
-  padding: 4px 19px;
-  align-items: center;
-  gap: 10px;
-  border-radius: 25px;
-  border: 2px solid #d9d9d9;
-}
-.filter_1:hover {
-  background: #deebff;
-}
-.filter_2:hover {
-  background: #deebff;
-}
-.filter_3:hover {
-  background: #deebff;
-}
-.filter_4:hover {
+.filter:hover {
   background: #deebff;
 }
 .color {
